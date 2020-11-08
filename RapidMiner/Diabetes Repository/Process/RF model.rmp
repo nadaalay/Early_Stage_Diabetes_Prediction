@@ -12,8 +12,8 @@
     <parameter key="process_duration_for_mail" value="30"/>
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
-      <operator activated="true" class="retrieve" compatibility="9.8.000" expanded="true" height="68" name="Retrieve Exasens_dataset" width="90" x="45" y="34">
-        <parameter key="repository_entry" value="../Data/diabetes_data_upload"/>
+      <operator activated="true" class="retrieve" compatibility="9.8.000" expanded="true" height="68" name="Retrieve Diabetes_dataset" width="90" x="45" y="34">
+        <parameter key="repository_entry" value="//Diabetes Repository/Data/diabetes_data_upload"/>
       </operator>
       <operator activated="true" class="set_role" compatibility="9.8.000" expanded="true" height="82" name="Set Role" width="90" x="246" y="34">
         <parameter key="attribute_name" value="class"/>
@@ -79,7 +79,7 @@
         <parameter key="use_example_weights" value="true"/>
         <list key="class_weights"/>
       </operator>
-      <connect from_op="Retrieve Exasens_dataset" from_port="output" to_op="Set Role" to_port="example set input"/>
+      <connect from_op="Retrieve Diabetes_dataset" from_port="output" to_op="Set Role" to_port="example set input"/>
       <connect from_op="Set Role" from_port="example set output" to_op="Split Data" to_port="example set"/>
       <connect from_op="Split Data" from_port="partition 1" to_op="Random Forest" to_port="training set"/>
       <connect from_op="Split Data" from_port="partition 2" to_op="Apply Model" to_port="unlabelled data"/>
