@@ -4,7 +4,7 @@
 
 Diabetes is a chronic disease that threats peoples' lives, and it leads to serious damage to the heart, blood vessels, eyes, kidneys and nerves. According to statistics, in 2019, around 463 million adults were living with diabetes that means 1 in 11 people were living in diabetes, and by 2030 this will rise to 578 million. Moreover, Diabetes caused 4.2 million deaths in 2019. Because of the presence of a long asymptomatic phase, early detection of diabetes is always desired for a clinically meaningful outcome. 1 of 2 of people suffering from diabetes are undiagnosed because of its long-term asymptomatic phase. 
 Early detection and treatment of diabetes is a significant step toward keeping people with diabetes healthy. The patient data can help in building a prediction model which predict the likelihood of having diabetes. 
-In this project, I will use a dataset that was collected from [UCI ML](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.) to build a machine learning model to predict diabetes at early stage.
+In this project, I will use a dataset that was collected from [UCI ML](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.) to build a machine learning model to predict diabetes at the early stage.
 
 
 ## Data
